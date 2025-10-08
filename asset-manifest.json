@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/topt-frontend/static/css/main.82c44a92.css",
+    "main.js": "/topt-frontend/static/js/main.b29cf6a7.js",
+    "static/js/453.eb570f4f.chunk.js": "/topt-frontend/static/js/453.eb570f4f.chunk.js",
+    "static/media/fa-solid-900.woff2": "/topt-frontend/static/media/fa-solid-900.0ae4e6254fc19607c79e.woff2",
+    "static/media/fa-brands-400.woff2": "/topt-frontend/static/media/fa-brands-400.e7461d69dbbff1310a5c.woff2",
+    "static/media/fa-regular-400.woff2": "/topt-frontend/static/media/fa-regular-400.1f38a564cd9eae27ebc3.woff2",
+    "static/media/fa-v4compatibility.woff2": "/topt-frontend/static/media/fa-v4compatibility.661bd6b7245d5205d3e1.woff2",
+    "index.html": "/topt-frontend/index.html",
+    "main.82c44a92.css.map": "/topt-frontend/static/css/main.82c44a92.css.map",
+    "main.b29cf6a7.js.map": "/topt-frontend/static/js/main.b29cf6a7.js.map",
+    "453.eb570f4f.chunk.js.map": "/topt-frontend/static/js/453.eb570f4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82c44a92.css",
+    "static/js/main.b29cf6a7.js"
+  ]
+}
