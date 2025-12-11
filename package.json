@@ -29,7 +29,7 @@
     "deploy": "gh-pages -d build"
   },
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
   "eslintConfig": {
     "extends": [
