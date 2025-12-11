@@ -17,7 +17,7 @@ export const AuthProvider = ({ children }) => {
   const [error, setError] = useState(null);
 
   // Set up axios defaults
-  axios.defaults.baseURL = process.env.REACT_APP_API_URL || 'https://topt-back-47b6d49bc89e.herokuapp.com';
+  axios.defaults.baseURL = process.env.REACT_APP_API_URL;
   axios.defaults.headers.common['Content-Type'] = 'application/json';
 
   // Check if user is authenticated on app load

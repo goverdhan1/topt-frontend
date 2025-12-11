@@ -17,7 +17,7 @@ export const AdminProvider = ({ children }) => {
   const [error, setError] = useState(null);
 
   // Set up axios defaults
-  axios.defaults.baseURL = process.env.REACT_APP_API_URL || 'https://topt-back-47b6d49bc89e.herokuapp.com';
+  axios.defaults.baseURL = process.env.REACT_APP_API_URL;
   axios.defaults.headers.common['Content-Type'] = 'application/json';
   axios.defaults.timeout = 10000; // 10 seconds timeout to prevent hanging requests
 
@@ -55,7 +55,7 @@ export const AdminProvider = ({ children }) => {
   const adminLogin = async (username, password) => {
     try {
       setError(null);
-      const response = await axios.post('https://topt-back-47b6d49bc89e.herokuapp.com/api/admin/login', {
+      const response = await axios.post('https://topt-backend.onrender.com/api/admin/login', {
         username,
         password
       });
